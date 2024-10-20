@@ -144,8 +144,8 @@ async function testGetCount(chain: any) {
 }
 
 async function main() {
-//   await testChain(chains[1]);
-  await testGetCount(chains[1]);
+  await testChain(chains[8]);
+//   await testGetCount(chains[1]);
 }
 
 main().catch(console.error);

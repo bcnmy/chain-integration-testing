@@ -194,11 +194,8 @@ function main() {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: 
-                //   await testChain(chains[1]);
-                return [4 /*yield*/, testGetCount(chains[1])];
+                case 0: return [4 /*yield*/, testChain(chains[8])];
                 case 1:
-                    //   await testChain(chains[1]);
                     _a.sent();
                     return [2 /*return*/];
             }
